@@ -21,10 +21,11 @@ html{
     --grey-light:#E5EAF1;
 
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
-    font-size: 62.5% /* 10px */
+    font-size: 62.5%; /* 10px */
 }
 
 body{
+    display:flex;
     height: 100vh;
     background: var(--background);
 }
@@ -82,7 +83,7 @@ button:hover, .button:hover{
     filter: brightness(1.2);
 }
 
-button > img
+button > img,
 .button > img{
     margin-right: 1rem;
     width: 2rem;
